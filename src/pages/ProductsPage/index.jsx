@@ -30,7 +30,7 @@ function ProductsPage() {
                 
                 <Products
                     ProductTitle = "Suco Natural de Laranja"
-                    ProductImg = "https://phygital-files.mercafacil.com/catalogo/uploads/produto/suco_de_laranja_prat_s_integral_900ml_8ad33694-3253-4b50-abe5-dd9f9efaef05.jpg"
+                    ProductImg = "https://pedidos.nacanoa.com.br/wp-content/uploads/2020/09/Suco_Laranja.png"
                     ProductDesc = "Laranjas frescas espremidas na hora, cheias de sabor e vitaminas."
                     ProductPrice = "R$8,00"
                 />
@@ -46,7 +46,7 @@ function ProductsPage() {
 
                 <Products
                     ProductTitle = "Batata Frita"
-                    ProductImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCJTT2WLbAgIfIJjcRcCHAhL-zT68HPGTHA&s"
+                    ProductImg = "https://static.ifood-static.com.br/image/upload/t_medium/pratos/c3eb8134-2bbc-4fd8-99e6-2cee047e4e9c/202507171330_NGB7_i.jpg"
                     ProductDesc = "Batatas cortadas e fritas até ficarem douradas e crocantes, sendo um acompanhamento versátil. "
                     ProductPrice = "R$15,00"
                 />
@@ -56,6 +56,13 @@ function ProductsPage() {
                     ProductImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPaFh_IqaOBfpgoGZAkWvsuHgb9dmL5e4A1g&s"
                     ProductDesc = "Clássica e saborosa, com base de molho de tomate, queijo mussarela e fatias de linguiça calabresa, geralmente acompanhada de cebola em rodelas e orégano."
                     ProductPrice = "R$60,00"
+                />
+
+                <Products
+                    ProductTitle = "Garrafa de Água Mineral"
+                    ProductImg = "https://static.ifood-static.com.br/image/upload/t_medium/pratos/c3eb8134-2bbc-4fd8-99e6-2cee047e4e9c/202403271454_32KA_i.jpg"
+                    ProductDesc = "Refrescante e pura, ideal para acompanhar suas refeições."
+                    ProductPrice = "R$3,00"
                 />
 
             </div>
