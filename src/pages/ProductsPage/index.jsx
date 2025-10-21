@@ -30,16 +30,18 @@ function ProductsPage() {
                 
                 <Products
                     ProductTitle = "Suco Natural de Laranja"
-                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
+                    ProductImg = "https://phygital-files.mercafacil.com/catalogo/uploads/produto/suco_de_laranja_prat_s_integral_900ml_8ad33694-3253-4b50-abe5-dd9f9efaef05.jpg"
                     ProductDesc = "Laranjas frescas espremidas na hora, cheias de sabor e vitaminas."
                     ProductPrice = "R$8,00"
                 />
 
                 <Products
+
                     ProductTitle = "Coca-Cola"
                     ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
                     ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
                     ProductPrice = "R$12,00"
+
                 />
 
                 <Products
