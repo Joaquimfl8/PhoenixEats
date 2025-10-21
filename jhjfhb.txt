@@ -1,0 +1,4 @@
+Dica:
+- Fazer um json que é uma lista de produtos (comida nhamnhan);
+- FAzer uma listagem desses produtos (laço for);
+- Os produtos tem um campo que é a img em si;

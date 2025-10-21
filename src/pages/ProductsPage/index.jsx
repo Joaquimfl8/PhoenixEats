@@ -5,13 +5,20 @@ import styles from "./ProductsPage.module.css"
 import imgs from "../../imgs"
 
 function ProductsPage() {
+
+    const productList = [
+        {
+            title: ''
+        }
+    ];
+
     return (
         <>
             <Header />
             <div className={styles.products_index}>
                 <Products
                     ProductTitle = "X-Salada"
-                    ProductImg = {imgs["X-salada.png"]}
+                    ProductImg = {imgs["X-Salada.png"]}
                     ProductDesc = "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
                     ProductPrice = "R$34,00"
                 />
