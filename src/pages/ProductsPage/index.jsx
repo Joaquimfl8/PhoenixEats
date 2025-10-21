@@ -54,7 +54,7 @@ function ProductsPage() {
                 <Products
                     ProductTitle = "Pizza de Calabresa"
                     ProductImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPaFh_IqaOBfpgoGZAkWvsuHgb9dmL5e4A1g&s"
-                    ProductDesc = "Clássica e saborosa, com base de molho de tomate, queijo mussarela e fatias de linguiça calabresa, geralmente acompanhada de cebola em rodelas, azeitonas e orégano."
+                    ProductDesc = "Clássica e saborosa, com base de molho de tomate, queijo mussarela e fatias de linguiça calabresa, geralmente acompanhada de cebola em rodelas e orégano."
                     ProductPrice = "R$60,00"
                 />
 
