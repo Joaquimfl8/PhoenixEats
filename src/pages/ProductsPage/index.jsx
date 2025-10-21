@@ -36,11 +36,26 @@ function ProductsPage() {
                 />
 
                 <Products
-                    ProductTitle = "Suco Natural de Laranja"
+                    ProductTitle = "Coca-Cola"
                     ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
-                    ProductDesc = "Laranjas frescas espremidas na hora, cheias de sabor e vitaminas."
-                    ProductPrice = "R$8,00"
+                    ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
+                    ProductPrice = "R$12,00"
                 />
+
+                <Products
+                    ProductTitle = "Batata Frita"
+                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
+                    ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
+                    ProductPrice = "R$15,00"
+                />
+
+                <Products
+                    ProductTitle = "Pizza de Calabresa"
+                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
+                    ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
+                    ProductPrice = "R$60,00"
+                />
+
             </div>
         </>
     )
