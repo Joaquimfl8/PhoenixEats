@@ -12,7 +12,7 @@ function Home() {
         {
             title: "Refrigerante Coca-Cola",
             description: "Acompanhamento ideal para sua pizza, a Coca-Cola geladinha é a escolha perfeita para refrescar seu paladar.",
-            image: "https://chasleao.com.br/wp-content/uploads/2023/05/iStock-487787108.jpg"
+            image: "https://changlee.com.br/wp-content/uploads/2016/09/coca-cola.jpg"
         },
         {
             title: "Batata Frita",
