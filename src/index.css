@@ -14,7 +14,7 @@ code {
 }
 
 button {
-  background-color: #365e79;
+  background-color: #2a5c7e;
   border-radius: 10px;
   margin-bottom: 10%;
   color: white;
@@ -24,10 +24,11 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  border-style: none;
-  transition: color 0.5s ease; /* tempo e suavidade da transição */
+  border: none;
+  transition: background-color 0.5s ease, color 0.5s ease; /* adiciona transição suave */
 }
 
-botton :hover{
-  color: aqua;
+button:hover {
+  background-color: #3390ce; /* tom mais claro do fundo */
+  color: rgb(255, 255, 255); /* cor do texto muda suavemente */
 }
