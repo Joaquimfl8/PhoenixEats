@@ -38,7 +38,7 @@ function ProductsPage() {
                 <Products
 
                     ProductTitle = "Coca-Cola"
-                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
+                    ProductImg = "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mexicoke.jpg"
                     ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
                     ProductPrice = "R$12,00"
 
@@ -46,15 +46,15 @@ function ProductsPage() {
 
                 <Products
                     ProductTitle = "Batata Frita"
-                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
-                    ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
+                    ProductImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCJTT2WLbAgIfIJjcRcCHAhL-zT68HPGTHA&s"
+                    ProductDesc = "Batatas cortadas e fritas até ficarem douradas e crocantes, sendo um acompanhamento versátil. "
                     ProductPrice = "R$15,00"
                 />
 
                 <Products
                     ProductTitle = "Pizza de Calabresa"
-                    ProductImg = "https://giassi.vtexassets.com/arquivos/ids/1163044/Suco-Integral-Laranja-Natural-One-Refrigerado-Garrafa-15l.png?v=638510173969700000"
-                    ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
+                    ProductImg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPaFh_IqaOBfpgoGZAkWvsuHgb9dmL5e4A1g&s"
+                    ProductDesc = "Clássica e saborosa, com base de molho de tomate, queijo mussarela e fatias de linguiça calabresa, geralmente acompanhada de cebola em rodelas e orégano."
                     ProductPrice = "R$60,00"
                 />
 
