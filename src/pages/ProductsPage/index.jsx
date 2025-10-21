@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Products from "../../components/Products";
+import Footer from "../../components/Footer";
 import styles from "./ProductsPage.module.css"
 
 function ProductsPage() {
@@ -59,6 +60,7 @@ function ProductsPage() {
                 />
 
             </div>
+            <Footer />
         </>
     )
 }

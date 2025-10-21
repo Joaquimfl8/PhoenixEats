@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import styles from './AboutUs.module.css';
 
 function AboutUs() {
@@ -12,6 +13,7 @@ function AboutUs() {
                 ou descobrir novos sabores, o Phoenix Eats é o lugar certo para explorar a culinária de forma prática 
                 e confiável.
             </p>
+            <Footer />
         </>
     )
 }
