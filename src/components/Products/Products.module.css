@@ -1,6 +1,5 @@
 
 .products_components {
-
     border-radius: 10px;
     background-color: #1f3747;
     width: 220px;
@@ -11,7 +10,7 @@
     justify-content: space-between;
     margin: 10px;
     color: white;
-    height: 100%;
+    
 }
 
 img {

@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Products from "../../components/Products";
+import Footer from "../../components/Footer";
 import styles from "./ProductsPage.module.css"
 
 function ProductsPage() {
@@ -9,7 +10,7 @@ function ProductsPage() {
             <div className={styles.products_index}>
                 <Products
                     ProductTitle = "X-Salada"
-                    ProductImg = "https://static.itdg.com.br/images/360-240/49a3716c1fba67dbc2d6a5d47db12776/52295-original.jpg"
+                    ProductImg = "https://static.ifood-static.com.br/image/upload/t_medium/pratos/6e73dce2-a17f-4aef-9035-1409cea198fe/202504082145_5GL2_i.jpg"
                     ProductDesc = "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
                     ProductPrice = "R$34,00"
                 />
@@ -38,7 +39,7 @@ function ProductsPage() {
                 <Products
 
                     ProductTitle = "Coca-Cola"
-                    ProductImg = "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mexicoke.jpg"
+                    ProductImg = "https://static.ifood-static.com.br/image/upload/t_medium/pratos/be5cc7ec-ab4a-4fc0-9ba2-da1db4072b7e/202507290843_xun231jx4sb.png"
                     ProductDesc = "Refrigerante carbonatado com sabor único e inconfundível, feito a partir de água gaseificada, açúcar, extrato de noz-de-cola e cafeína."
                     ProductPrice = "R$12,00"
 
@@ -59,6 +60,7 @@ function ProductsPage() {
                 />
 
             </div>
+            <Footer />
         </>
     )
 }
