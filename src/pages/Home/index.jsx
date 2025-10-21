@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import styles from "./Home.module.css";
 import { Link } from "react-router";
 
@@ -43,6 +44,7 @@ function Home() {
                     </div>
                 ))}
             </div>
+            <Footer />
         </>
     );
 }
