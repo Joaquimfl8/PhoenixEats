@@ -1,15 +1,16 @@
 
 .products_components {
-    border: solid white 3px;
+
     border-radius: 10px;
-    background-color: rgb(187, 187, 187);
-    width: 250px;
+    background-color: #1f3747;
+    width: 220px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
+    color: white;
 }
 
 img {
@@ -22,4 +23,3 @@ img {
     color: rgb(1, 163, 1);
     font-size: 20px;
 }
-

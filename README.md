@@ -27,4 +27,4 @@ O desenvolvimento do AuFood seguiu metodologias ágeis, com entregas incrementai
 
 ---
 
-AuFood está em constante evolução para atender às necessidades dos usuários e acompanhar as tendências do mercado de delivery.dsaad
+AuFood está em constante evolução para atender às necessidades dos usuários e acompanhar as tendências do mercado de delivery. 
