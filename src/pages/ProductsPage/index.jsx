@@ -7,23 +7,13 @@ import ProductsData from "../../ProductsData"
 
 //import imgs from "../../imgs"
 
-// Imagens
-import Agua from "../../imgs/Água.webp";
-import BoloMorango from "../../imgs/Bolo de Morango.png";
-import Coca from "../../imgs/Coca.png";
-import Coxinha from "../../imgs/Coxinhas.png";
-import Fritas from "../../imgs/Fritas.png";
-import PizzaCalabresa from "../../imgs/Pizza de Calabresa.webp";
-import Suco from "../../imgs/Suco.png";
-import Xsalada from "../../imgs/X-salada.png";
 
 function ProductsPage() {
     return (
         <>
             <Header />
             <div className={styles.products_index}>
-                {Object.values(ProductsData).map((product, index) => {
-                    
+                {Object.values(ProductsData).map((product) => {
                     return (
                         <Products
                             ProductTitle={product.title}
