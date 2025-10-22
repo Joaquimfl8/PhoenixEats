@@ -5,7 +5,8 @@ function Footer(){
         <>
             <div className={styles.footer_container}>
                 <div className={styles.footer_text}>
-                    coco
+                    Copyright: Phoenix Eats Cnpj: 24.692-424
+
                 </div>
             </div>
         </>

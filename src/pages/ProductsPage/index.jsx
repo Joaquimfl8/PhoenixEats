@@ -41,7 +41,7 @@ function ProductsPage() {
                 />
                 
                 <Products
-                    ProductTitle = "Suco Natural de Laranja"
+                    ProductTitle = "Suco de Laranja"
                     ProductImg = {Suco}
                     ProductDesc = "Laranjas frescas espremidas na hora, cheias de sabor e vitaminas."
                     ProductPrice = "R$8,00"
