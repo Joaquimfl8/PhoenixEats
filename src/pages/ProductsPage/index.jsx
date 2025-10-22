@@ -2,7 +2,12 @@ import Header from "../../components/Header";
 import Products from "../../components/Products";
 import Footer from "../../components/Footer";
 import styles from "./ProductsPage.module.css"
+
+import ProductsData from "../../ProductsData"
+
 //import imgs from "../../imgs"
+
+// Imagens
 import Agua from "../../imgs/Água.webp";
 import BoloMorango from "../../imgs/Bolo de Morango.png";
 import Coca from "../../imgs/Coca.png";
@@ -12,14 +17,24 @@ import PizzaCalabresa from "../../imgs/Pizza de Calabresa.webp";
 import Suco from "../../imgs/Suco.png";
 import Xsalada from "../../imgs/X-salada.png";
 
-
-
 function ProductsPage() {
     return (
         <>
             <Header />
             <div className={styles.products_index}>
-                <Products
+                {Object.values(ProductsData).map((product, index) => {
+                    
+                    return (
+                        <Products
+                            ProductTitle={product.title}
+                            ProductDesc={product.desc}
+                            ProductImg={product.img}
+                            ProductPrice={product.price}
+                        />
+                    )
+                })}
+                     
+                {/* {<Products
                     ProductTitle = "X-Salada"
                     ProductImg = {Xsalada}
                     ProductDesc = "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
@@ -76,8 +91,9 @@ function ProductsPage() {
                     ProductDesc = "Refrescante e pura, ideal para acompanhar suas refeições."
                     ProductPrice = "R$3,00"
                 />
-
+                } */}
             </div>
+
             <Footer />
         </>
     )
