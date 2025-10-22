@@ -2,27 +2,49 @@ import Header from "../../components/Header";
 import Products from "../../components/Products";
 import Footer from "../../components/Footer";
 import styles from "./ProductsPage.module.css"
+import { useState, useEffect } from "react"
 
-import ProductsData from "../../ProductsData"
+//import ProductsData from "../../ProductsData"
 
 //import imgs from "../../imgs"
 
+const url = "https://free-food-menus-api-two.vercel.app/best-foods";
+
 function ProductsPage() {
+
+    // pegar comidas da api
+    const [apiProducts, setApiProducts] = useState([]);
+    
+    useEffect(() => {
+        async function chamarApi() { 
+            const result = await fetch(url);
+            if (result.ok === true) {
+                const productJson = await result.json();
+                console.log(productJson)
+                setApiProducts(productJson);
+            }
+        }
+        chamarApi();
+    }, []);
+
     return (
         <>
             <Header />
             <div className={styles.products_index}>
-                {Object.values(ProductsData).map((product) => {
+
+
+                {apiProducts.map(function(product, index) {
                     return (
                         <Products
-                            ProductTitle={product.title}
-                            ProductDesc={product.desc}
+                            ProductTitle={product.name}
+                            ProductDesc={product.dsc}
                             ProductImg={product.img}
                             ProductPrice={`R$${product.price}`}
                         />
                     )
                 })}
-                     
+
+                {/* antigo */} 
                 {/* {<Products
                     ProductTitle = "X-Salada"
                     ProductImg = {Xsalada}
