@@ -1,0 +1,34 @@
+{
+    "X-Salada": {
+        "title": "X-Salada",
+        "img": "/src/imgs/X-salada.png"
+    },
+    "Bolo com morango": {
+        "title": "Bolo com morango",
+        "img": "/src/imgs/Bolo de Morango.png"
+    },
+    "Coxinha de frango": {
+        "title": "Coxinha de frango",
+        "img": "/src/imgs/Coxinhas.png"
+    },
+    "Suco Natural de Laranja": {
+        "title": "Suco Natural de Laranja",
+        "img": "/src/imgs/Suco.png"
+    },
+    "Coca-Cola": {
+        "title": "Coca-Cola",
+        "img": "/src/imgs/Coca.png"
+    },
+    "Batata Frita": {
+        "title": "Batata Frita",
+        "img": "/src/imgs/Fritas.png"
+    },
+    "Pizza de Calabresa": {
+        "title": "Pizza de Calabresa",
+        "img": "/src/imgs/Pizza de Calabresa.png"
+    },
+    "Garrafa de Água Mineral": {
+        "title": "Garrafa de Água Mineral",
+        "img": "/src/imgs/Água.png"
+    }
+}
