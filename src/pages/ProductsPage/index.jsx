@@ -40,6 +40,7 @@ function ProductsPage() {
                             ProductDesc={product.dsc}
                             ProductImg={product.img}
                             ProductPrice={`R$${product.price}`}
+                            onImgError={() => setApiProducts(prev => prev.filter(p => p.img !== product.img))}
                         />
                     )
                 })}
