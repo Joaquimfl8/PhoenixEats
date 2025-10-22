@@ -1,4 +1,4 @@
-{
+const ProductsData = {
     "X-Salada": {
         "title": "X-Salada",
         "img": "/src/imgs/X-salada.png",
@@ -54,3 +54,5 @@
         "desc": "Refrescante e pura, ideal para acompanhar suas refeições."
     }
 }
+
+export default ProductsData
