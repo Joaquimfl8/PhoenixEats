@@ -4,7 +4,9 @@ function Footer(){
     return(
         <>
             <div className={styles.footer_container}>
-                merda escura
+                <div className={styles.footer_text}>
+                    coco
+                </div>
             </div>
         </>
     )
