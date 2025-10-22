@@ -18,7 +18,7 @@ function ProductsPage() {
                             ProductTitle={product.title}
                             ProductDesc={product.desc}
                             ProductImg={product.img}
-                            ProductPrice={product.price}
+                            ProductPrice={`R$${product.price}`}
                         />
                     )
                 })}
