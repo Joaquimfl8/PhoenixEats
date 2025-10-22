@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(216, 216, 216);
+  background-color: #e7e7e7;
 }
 
 code {
@@ -14,7 +14,7 @@ code {
 }
 
 button {
-  background-color: #2a5c7e;
+  background-color: #910000;
   border-radius: 10px;
   margin-bottom: 10%;
   color: white;
@@ -29,6 +29,6 @@ button {
 }
 
 button:hover {
-  background-color: #3390ce; /* tom mais claro do fundo */
+  background-color: #e62323; /* tom mais claro do fundo */
   color: rgb(255, 255, 255); /* cor do texto muda suavemente */
 }
