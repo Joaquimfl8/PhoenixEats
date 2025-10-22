@@ -1,5 +1,0 @@
-let user = {}
-
-function addToMarket() {
-
-}
