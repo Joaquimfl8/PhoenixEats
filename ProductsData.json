@@ -4,36 +4,43 @@
         "img": "/src/imgs/X-salada.png",
         "price": "R$34,00"
     },
+    
     "Bolo com morango": {
         "title": "Bolo com morango",
         "img": "/src/imgs/Bolo de Morango.png",
         "price": "R$71,40"
     },
+
     "Coxinha de frango": {
         "title": "Coxinha de frango",
         "img": "/src/imgs/Coxinhas.png",
         "price": "R$6,00"
     },
+
     "Suco Natural de Laranja": {
         "title": "Suco Natural de Laranja",
         "img": "/src/imgs/Suco.png",
         "price": "R$8,00"
     },
+
     "Coca-Cola": {
         "title": "Coca-Cola",
         "img": "/src/imgs/Coca.png",
         "price": "R$12,00"
     },
+
     "Batata Frita": {
         "title": "Batata Frita",
         "img": "/src/imgs/Fritas.png",
         "price": "R$15,00"
     },
+
     "Pizza de Calabresa": {
         "title": "Pizza de Calabresa",
         "img": "/src/imgs/Pizza de Calabresa.png",
         "price": "R$60,00"
     },
+
     "Garrafa de Água Mineral": {
         "title": "Garrafa de Água Mineral",
         "img": "/src/imgs/Água.png",
