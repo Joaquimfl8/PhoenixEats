@@ -12,7 +12,7 @@ const url = "https://free-food-menus-api-two.vercel.app/best-foods";
 
 function ProductsPage() {
 
-    // pegar comidas da api
+    // pegar comidas da api (precisa verificar se a imagem funciona)
     const [apiProducts, setApiProducts] = useState([]);
     
     useEffect(() => {
