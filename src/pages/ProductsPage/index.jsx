@@ -3,7 +3,7 @@ import Products from "../../components/Products";
 import Footer from "../../components/Footer";
 import styles from "./ProductsPage.module.css"
 
-import ProductData from "../../ProductsData"
+import ProductsData from "../../ProductsData"
 
 //import imgs from "../../imgs"
 
@@ -22,8 +22,8 @@ function ProductsPage() {
         <>
             <Header />
             <div className={styles.products_index}>
-                {Object.values(productsData).map((product, index) => {
-                    const imagePath = require(`../../imgs/${product.img}`);
+                {Object.values(ProductsData).map((product, index) => {
+                    
                     return (
                         <Products
                             ProductTitle={product.title}
@@ -32,8 +32,9 @@ function ProductsPage() {
                             ProductPrice={product.price}
                         />
                     )
-                    
-                {/* <Products
+                })}
+                     
+                {/* {<Products
                     ProductTitle = "X-Salada"
                     ProductImg = {Xsalada}
                     ProductDesc = "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
@@ -90,8 +91,9 @@ function ProductsPage() {
                     ProductDesc = "Refrescante e pura, ideal para acompanhar suas refeições."
                     ProductPrice = "R$3,00"
                 />
-                }*/
+                } */}
             </div>
+
             <Footer />
         </>
     )
