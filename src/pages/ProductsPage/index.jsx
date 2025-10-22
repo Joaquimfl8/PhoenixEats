@@ -7,7 +7,6 @@ import ProductsData from "../../ProductsData"
 
 //import imgs from "../../imgs"
 
-
 function ProductsPage() {
     return (
         <>
