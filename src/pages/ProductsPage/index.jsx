@@ -59,7 +59,7 @@ function ProductsPage() {
                 <Products
                     ProductTitle = "Batata Frita"
                     ProductImg = {Fritas}
-                    ProductDesc = "Batatas cortadas e fritas até ficarem douradas e crocantes, sendo um acompanhamento versátil. "
+                    ProductDesc = "Batatas cortadas e fritas até ficarem douradas e crocantes, sendo um acompanhamento versátil."
                     ProductPrice = "R$15,00"
                 />
 
