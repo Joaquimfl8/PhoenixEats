@@ -23,7 +23,7 @@ const ProductsData = {
     "Bolo com morango": {
         "title": "Bolo com morango",
         "img": BoloMorango,
-        "price": "71,40",
+        "price": "45,00",
         "desc": "Camadas fofinhas de chocolate, recheio cremoso e morangos frescos, coberto com ganache irresistível."
     },
     
@@ -72,7 +72,7 @@ const ProductsData = {
     "Porcao de Sushi": {
         "title": "Porção de Sushi",
         "img": PorcaodeSushi,
-        "price": "30,00",
+        "price": "50,00",
         "desc": "Variedade de sushis frescos, incluindo nigiri, sashimi e maki, preparados com ingredientes de alta qualidade."
     },
 
@@ -86,7 +86,7 @@ const ProductsData = {
     "Brownie": {
         "title": "Brownie",
         "img": brownie,
-        "price": "8,60",
+        "price": "8,00",
         "desc": "Delicioso brownie de chocolate, com textura fudgy e cobertura de chocolate."
     },
 
