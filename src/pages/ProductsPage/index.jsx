@@ -9,7 +9,6 @@ import ProductsData from "../../ProductsData"
 
 function ProductsPage() {
 
-    
     return (
         <>
             <Header />

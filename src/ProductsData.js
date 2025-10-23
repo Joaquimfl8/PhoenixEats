@@ -6,6 +6,12 @@ import Fritas from "./imgs/Fritas.png";
 import PizzaCalabresa from "./imgs/Pizza de Calabresa.webp";
 import Suco from "./imgs/Suco.png";
 import Xsalada from "./imgs/X-salada.png";
+import brownie from "./imgs/Brownie.png";
+import cookie from "./imgs/Cookie.png";
+import Frango from "./imgs/Frango.png";
+import panquecas from "./imgs/Panquecas.png";
+import Pudim from "./imgs/Pudim.png";
+import PorcaodeSushi from "./imgs/Sushi.png";
 
 const ProductsData = {
     "X-Salada": {
@@ -61,7 +67,52 @@ const ProductsData = {
         "img": Agua,
         "price": "3,00",
         "desc": "Refrescante e pura, ideal para acompanhar suas refeições."
+    },
+
+    "Porcao de Sushi": {
+        "title": "Porção de Sushi",
+        "img": PorcaodeSushi,
+        "price": "30,00",
+        "desc": "Variedade de sushis frescos, incluindo nigiri, sashimi e maki, preparados com ingredientes de alta qualidade."
+    },
+
+    "Frango": {
+        "title": "Frango",
+        "img": Frango,
+        "price": "65,00",
+        "desc": "Carne macia e suculenta, ideal para preparos rápidos e a carne é rica em proteínas e tem baixo teor de gordura, especialmente se consumida sem pele. "
+    },
+
+    "Brownie": {
+        "title": "Brownie",
+        "img": brownie,
+        "price": "8,60",
+        "desc": "Delicioso brownie de chocolate, com textura fudgy e cobertura de chocolate."
+    },
+
+    "Cookie": {
+        "title": "Cookie",
+        "img": cookie,
+        "price": "15,00",
+        "desc": "Biscoito crocante e amanteigado, perfeito para acompanhar seu café."
+    },
+
+    "Panquecas": {
+        "title": "Panquecas",
+        "img": panquecas,
+        "price": "25,00",
+        "desc": "Massa leve e macia, servida com recheios variados e coberturas deliciosas."
+    },
+
+    "Pudim": {
+        "title": "Pudim",
+        "img": Pudim,
+        "price": "10,00",
+        "desc": "Sobremesa clássica e cremosa, feita com leite condensado, ovos e açúcar, com textura suave e sabor doce."
     }
+
+
+
 }
 
 export default ProductsData
