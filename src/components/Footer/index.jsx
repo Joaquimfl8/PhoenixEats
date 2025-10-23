@@ -4,7 +4,10 @@ function Footer(){
     return(
         <>
             <div className={styles.footer_container}>
-                merda escura
+                <div className={styles.footer_text}>
+                    Copyright: Phoenix Eats Cnpj: 24.692-424
+
+                </div>
             </div>
         </>
     )

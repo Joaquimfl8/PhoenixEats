@@ -1,8 +1,8 @@
 
 .products_components {
     border-radius: 10px;
-    background-color: #1f3747;
-    width: 220px;
+    background-color: #cc0000;
+    width: 280px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -10,7 +10,7 @@
     justify-content: space-between;
     margin: 10px;
     color: white;
-    
+    height: 100%;
 }
 
 img {
@@ -20,6 +20,6 @@ img {
 }
 
 .products_price {
-    color: rgb(1, 163, 1);
+    color: rgb(0, 199, 0);
     font-size: 20px;
 }
