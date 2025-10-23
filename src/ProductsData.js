@@ -6,6 +6,12 @@ import Fritas from "./imgs/Fritas.png";
 import PizzaCalabresa from "./imgs/Pizza de Calabresa.webp";
 import Suco from "./imgs/Suco.png";
 import Xsalada from "./imgs/X-salada.png";
+import Xsalada from "./imgs/Brownie.png";
+import Xsalada from "./imgs/Cookie.png";
+import Xsalada from "./imgs/Frango.png";
+import Xsalada from "./imgs/Panquecas.png";
+import Xsalada from "./imgs/Pudim.png";
+import Xsalada from "./imgs/Sushi.png";
 
 const ProductsData = {
     "X-Salada": {
@@ -75,20 +81,6 @@ const ProductsData = {
         "img": Frango,
         "price": "65,00",
         "desc": "Carne macia e suculenta, ideal para preparos rápidos e a carne é rica em proteínas e tem baixo teor de gordura, especialmente se consumida sem pele. "
-    },
-
-    "Miojo": {
-        "title": "Miojo",
-        "img": Miojo,
-        "price": "6,90",
-        "desc": "Miojo instantâneo, prático e saboroso, perfeito para um lanche rápido."
-    },
-
-    "Paocombanha": {
-        "title": "Pão com Banha",
-        "img": paocombanha,
-        "price": "2,00",
-        "desc": "Pão macio e quentinho, recheado com banha suculenta, perfeito para um lanche rápido."
     },
 
     "Brownie": {
