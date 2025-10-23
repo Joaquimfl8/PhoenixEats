@@ -8,10 +8,10 @@ import Suco from "./imgs/Suco.png";
 import Xsalada from "./imgs/X-salada.png";
 import brownie from "./imgs/Brownie.png";
 import cookie from "./imgs/Cookie.png";
-import frango from "./imgs/Frango.png";
+import Frango from "./imgs/Frango.png";
 import panquecas from "./imgs/Panquecas.png";
-import pudim from "./imgs/Pudim.png";
-import sushi from "./imgs/Sushi.png";
+import Pudim from "./imgs/Pudim.png";
+import PorcaodeSushi from "./imgs/Sushi.png";
 
 const ProductsData = {
     "X-Salada": {
