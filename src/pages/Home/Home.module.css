@@ -6,6 +6,13 @@
     padding: 40px;
 }
 
+.card_buttom{
+    background-color: #cc0000;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+
 .textAbout {
     display: flex;
     flex-direction: column;

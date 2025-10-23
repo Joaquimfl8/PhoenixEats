@@ -37,7 +37,7 @@ function Home() {
                                 <h2>{pizza.title}</h2>
                                 <div className={styles.Cards}>
                                     <p>{pizza.description}</p>
-                                    <Link to="/Products" style={{ color: "white", border: "solid white 2px", borderRadius: "5px", padding: "5px 10px", textDecoration: "none" }}>Peça Agora</Link>
+                                    <Link to="/Products" className={styles.card_buttom }>Peça Agora</Link>
                                 </div>
                             </div>
                         </div>
