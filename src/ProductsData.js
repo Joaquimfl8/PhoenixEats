@@ -6,12 +6,12 @@ import Fritas from "./imgs/Fritas.png";
 import PizzaCalabresa from "./imgs/Pizza de Calabresa.webp";
 import Suco from "./imgs/Suco.png";
 import Xsalada from "./imgs/X-salada.png";
-import Xsalada from "./imgs/Brownie.png";
-import Xsalada from "./imgs/Cookie.png";
-import Xsalada from "./imgs/Frango.png";
-import Xsalada from "./imgs/Panquecas.png";
-import Xsalada from "./imgs/Pudim.png";
-import Xsalada from "./imgs/Sushi.png";
+import brownie from "./imgs/Brownie.png";
+import cookie from "./imgs/Cookie.png";
+import frango from "./imgs/Frango.png";
+import panquecas from "./imgs/Panquecas.png";
+import pudim from "./imgs/Pudim.png";
+import sushi from "./imgs/Sushi.png";
 
 const ProductsData = {
     "X-Salada": {
