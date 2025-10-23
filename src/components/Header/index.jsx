@@ -14,6 +14,7 @@ function Header() {
                     <Link className={styles.header_links} to="/">Home</Link>
                     <Link className={styles.header_links} to="/products">Products</Link>
                     <Link className={styles.header_links} to="/aboutus">About Us</Link>
+                    <Link className={styles.header_links} to="/market">Market</Link>
                 </nav>
             </div>
         </>
