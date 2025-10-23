@@ -25,7 +25,7 @@ function ProductsPage() {
                         />
                     )
                 })}
-
+                
                 {/* antigo */} 
                 {/* {<Products
                     ProductTitle = "X-Salada"
