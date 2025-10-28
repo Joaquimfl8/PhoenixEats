@@ -16,6 +16,7 @@ function Market() {
                         <th>Produto</th>
                         <th>Preço</th>
                         <th>Descrição</th>
+                        <th>Quantidade</th>
                     </tr>
                 </thead>
                 <tbody className={styles.market_body}>
@@ -24,6 +25,7 @@ function Market() {
                             <td><img src={product.img} alt={product.title} />{product.title}</td>
                             <td>{product.price}</td>
                             <td>{product.desc}</td>
+                            <td>1</td>
                         </tr>
                     ))}
                 </tbody>
