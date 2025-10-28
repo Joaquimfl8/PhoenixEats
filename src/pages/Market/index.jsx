@@ -8,7 +8,6 @@ function Market() {
         <>
 
         <Header />
-        <h2>Carrinho</h2>
         <div className={styles.market_components}>
             <div className={styles.table_container}> 
                 <table className={styles.market_components}>
@@ -25,6 +24,7 @@ function Market() {
                                 <td><img src={product.img} alt={product.title} />{product.title}</td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
+                                <td><button>Retirar do Carrinho</button></td>
                             </tr>
                         ))}
                     </tbody>
