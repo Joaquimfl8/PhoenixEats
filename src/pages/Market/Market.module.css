@@ -1,15 +1,26 @@
+
+.table_container{
+    background-color:#cc0000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px ;
+}
+
+
+
 .market_components img{
     width: 50px;
 }
 
+
 .market_table {
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 th {
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 td {
-    border-right: 2px solid black;
+    border-right: 2px solid rgb(255, 255, 255);
 }
+
