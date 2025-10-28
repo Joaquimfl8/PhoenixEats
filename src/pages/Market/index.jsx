@@ -10,9 +10,9 @@ function Market() {
         <Header />
         <h2>Carrinho</h2>
         <div className={styles.market_components}>
-            <table>
+            <table className={styles.market_components}>
                 <thead className={styles.market_head}>
-                    <tr>
+                    <tr className={styles.head_components}>
                         <th>Produto</th>
                         <th>Preço</th>
                         <th>Descrição</th>
@@ -20,7 +20,7 @@ function Market() {
                 </thead>
                 <tbody className={styles.market_body}>
                     {Object.values(ProductsData).map(product => (
-                        <tr>
+                        <tr className={styles.body_components}>
                             <td><img src={product.img} alt={product.title} />{product.title}</td>
                             <td>{product.price}</td>
                             <td>{product.desc}</td>
