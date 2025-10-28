@@ -3,7 +3,7 @@ import useContadorDePedidos from "../../hooks/useContadorDePedidos";
 import styles from './CardItem.module.css';
 
 function CardItem({nome, preco}) {
-    const { quantidade, aumentar, diminuir } = useContadorDePedidos(1);
+    const { quantidade, aumentar, diminuir, remover } = useContadorDePedidos(1);
 
     return (
         <div className={styles.cardItem}>
@@ -11,6 +11,7 @@ function CardItem({nome, preco}) {
             <p>Quantidade: {quantidade}</p>
             <button onClick={aumentar}>+</button>
             <button onClick={diminuir}>-</button>
+            <button onClick={remover}>Remover</button>
             {quantidade > 0 && <p>Total: R${quantidade * parseInt(preco)}</p>}
         </div>
     )

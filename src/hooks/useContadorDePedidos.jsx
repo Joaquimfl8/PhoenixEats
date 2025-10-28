@@ -12,7 +12,11 @@ function useContadorDePedidos(quantidadeInicial = 0) {
         setContador(prevContador => (prevContador > 0 ? prevContador - 1 : 0));
     }
 
-    return { quantidade, aumentar, diminuir}
+    const remover = () => {
+        setContador( prevContador => (prevContador = 0))
+    }
+
+    return { quantidade, aumentar, diminuir, remover}
 }
 
 export default useContadorDePedidos;

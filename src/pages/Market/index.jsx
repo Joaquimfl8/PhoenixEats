@@ -4,10 +4,13 @@ import ProductsData from "../../ProductsData"
 import Footer from "../../components/Footer";
 import CardItem from "../../components/CardItem";
 
+function removerProduto(ProdutoDiv) {
+    let produto = document.getElementsByClassName(ProdutoDiv)
+}
+
 function Market() {
     return (
         <>
-
         <Header />
         <div className={styles.market_components}>
             <div className={styles.table_container}> 
@@ -31,7 +34,7 @@ function Market() {
                                         nome = {product.title}
                                         preco = {product.price}
                                     />
-                                    <button>Retirar do Carrinho</button>
+                                    <button onClick={removerProduto(styles.body_components)}>hbjklç</button>
                                 </td>
                             </tr>
                         ))}
