@@ -12,6 +12,7 @@ import Frango from "./imgs/Frango.png";
 import panquecas from "./imgs/Panquecas.png";
 import Pudim from "./imgs/Pudim.png";
 import PorcaodeSushi from "./imgs/Sushi.png";
+import Camarrao from "./imgs/Camarrao.png";
 
 const ProductsData = {
     "X-Salada": {
@@ -109,7 +110,16 @@ const ProductsData = {
         "img": Pudim,
         "price": "10,00",
         "desc": "Sobremesa clássica e cremosa, feita com leite condensado, ovos e açúcar, com textura suave e sabor doce."
+    },
+
+    "Camarão": {
+        "title": "Camarão",
+        "img": Camarrao,
+        "price": "40,00",
+        "desc": "Camarões frescos e suculentos, ricos em proteínas e saborosos."
     }
+
+
 
 
 
