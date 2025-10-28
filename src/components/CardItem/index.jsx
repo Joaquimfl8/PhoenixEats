@@ -11,7 +11,7 @@ function CardItem({nome, preco}) {
             <p>Quantidade: {quantidade}</p>
             <button onClick={aumentar}>+</button>
             <button onClick={diminuir}>-</button>
-            {quantidade > 0 && <p>Total: R${quantidade * preco}</p>}
+            {quantidade > 0 && <p>Total: R${quantidade * parseInt(preco)}</p>}
         </div>
     )
 }

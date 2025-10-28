@@ -25,7 +25,13 @@ function Market() {
                                 <td><img src={product.img} alt={product.title} />{product.title}</td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
-                                <td><CardItem/><button>Retirar do Carrinho</button></td>
+                                <td>
+                                    <CardItem
+                                        nome = {product.title}
+                                        preco = {product.price}
+                                    />
+                                    <button>Retirar do Carrinho</button>
+                                </td>
                             </tr>
                         ))}
                     </tbody>
