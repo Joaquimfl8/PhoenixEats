@@ -25,6 +25,7 @@ function Market() {
                                 <td><img src={product.img} alt={product.title} />{product.title}</td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
+                                <td>X</td>
                             </tr>
                         ))}
                     </tbody>
