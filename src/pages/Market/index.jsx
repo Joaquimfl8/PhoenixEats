@@ -16,12 +16,13 @@ function Market() {
                             <th>Produto</th>
                             <th>Preço</th>
                             <th>Descrição</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody className={styles.market_body}>
                         {Object.values(ProductsData).map(product => (
                             <tr className={styles.body_components}>
-                                <td><img src={product.img} alt={product.title} />{product.title}</td>
+                                <td><img src={product.img} alt={product.title} /></td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
                                 <td><button>Retirar do Carrinho</button></td>

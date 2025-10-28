@@ -1,14 +1,15 @@
+
 .market_components {
     margin-top: 25px;
 }
 
 
 .market_components img{
-    width: 50px;
+    width: 150px;
+    height: 150px;
 
 
 }
-
 
 .market_table {
     border: 5px solid rgb(0, 0, 0);
@@ -35,6 +36,7 @@ td {
     margin: 10px;
     color: white;
     height: 100%;
-    padding: 10px;
+    font-size: 20px;
 }
+
 
