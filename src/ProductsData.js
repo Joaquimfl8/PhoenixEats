@@ -20,11 +20,11 @@ const ProductsData = {
         "price": "34,00",
         "desc": "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
     },
-    "Bolo com morango": {
-        "title": "Bolo com morango",
+    "Bolo de Morango": {
+        "title": "Bolo de Morango",
         "img": BoloMorango,
         "price": "45,00",
-        "desc": "Camadas fofinhas de chocolate, recheio cremoso e morangos frescos, coberto com ganache irresistível."
+        "desc": "Bolo fofinho de baunilha, recheado e coberto com creme de morango fresco e decorado com morangos inteiros."
     },
     
     "Coxinha de frango": {
@@ -80,7 +80,7 @@ const ProductsData = {
         "title": "Frango",
         "img": Frango,
         "price": "65,00",
-        "desc": "Carne macia e suculenta, ideal para preparos rápidos e a carne é rica em proteínas e tem baixo teor de gordura, especialmente se consumida sem pele. "
+        "desc": "Carne macia e suculenta, rica em proteínas. "
     },
 
     "Brownie": {
