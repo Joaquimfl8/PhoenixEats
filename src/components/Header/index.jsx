@@ -14,7 +14,9 @@ function Header() {
                     <Link className={styles.header_links} to="/">Home</Link>
                     <Link className={styles.header_links} to="/products">Products</Link>
                     <Link className={styles.header_links} to="/aboutus">About Us</Link>
-                    <Link className={styles.header_links} to="/market">Cart</Link>
+                    <Link className={styles.header_links} to="/market">
+                        <img src='https://cdn0.iconfinder.com/data/icons/minimal-set-seven/32/minimal-49-512.png'></img>
+                    </Link>
                 </nav>
             </div>
         </>

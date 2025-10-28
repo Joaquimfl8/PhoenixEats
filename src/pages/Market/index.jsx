@@ -1,6 +1,7 @@
 import styles from "./Market.module.css";
 import Header from "../../components/Header";
 import ProductsData from "../../ProductsData"
+import Footer from "../../components/Footer";
 
 function Market() {
     return (
@@ -27,6 +28,7 @@ function Market() {
                     ))}
                 </tbody>
             </table>
+            <Footer/>
         </div>
         </>
     )
