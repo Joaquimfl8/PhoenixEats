@@ -2,6 +2,7 @@ import styles from "./Market.module.css";
 import Header from "../../components/Header";
 import ProductsData from "../../ProductsData"
 import Footer from "../../components/Footer";
+import CardItem from "../../components/CardItem";
 
 function Market() {
     return (
@@ -25,7 +26,7 @@ function Market() {
                                 <td><img src={product.img} alt={product.title} /></td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
-                                <td><button>Retirar do Carrinho</button></td>
+                                <td><CardItem/><button>Retirar do Carrinho</button></td>
                             </tr>
                         ))}
                     </tbody>
