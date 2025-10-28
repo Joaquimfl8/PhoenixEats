@@ -1,4 +1,5 @@
 import styles from './Products.module.css';
+import {Link} from 'react-router-dom'
 
 function Products({ProductTitle = "", ProductImg = "", ProductDesc = "", ProductPrice = ""}) {
     return (
@@ -8,7 +9,7 @@ function Products({ProductTitle = "", ProductImg = "", ProductDesc = "", Product
                     <h2>{ProductTitle}</h2>
                     <img src={ProductImg} alt={ProductTitle} />
                     <p className={styles.products_price}>{ProductPrice}</p>
-                    <button>Comprar</button>
+                    <button to="/market">Comprar</button>
                 </div>
             </div>
         </>
