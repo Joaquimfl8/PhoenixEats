@@ -2,6 +2,7 @@ import styles from "./Market.module.css";
 import Header from "../../components/Header";
 import ProductsData from "../../ProductsData"
 import Footer from "../../components/Footer";
+import CardItem from "../../components/CardItem";
 
 function Market() {
     return (
@@ -16,15 +17,22 @@ function Market() {
                             <th>Produto</th>
                             <th>Preço</th>
                             <th>Descrição</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody className={styles.market_body}>
                         {Object.values(ProductsData).map(product => (
                             <tr className={styles.body_components}>
-                                <td><img src={product.img} alt={product.title} />{product.title}</td>
+                                <td><img src={product.img} alt={product.title} /></td>
                                 <td>{product.price}</td>
                                 <td>{product.desc}</td>
-                                <td><button>Retirar do Carrinho</button></td>
+                                <td>
+                                    <CardItem
+                                        nome = {product.title}
+                                        preco = {product.price}
+                                    />
+                                    <button>Retirar do Carrinho</button>
+                                </td>
                             </tr>
                         ))}
                     </tbody>
