@@ -1,3 +1,15 @@
 .market_components img{
     width: 50px;
 }
+
+.market_table {
+    border: 5px solid black;
+}
+
+th {
+    border: 5px solid black;
+}
+
+td {
+    border-right: 2px solid black;
+}
