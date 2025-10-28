@@ -5,8 +5,8 @@
 
 
 .market_components img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 
 
 }
@@ -16,7 +16,7 @@
 }
 
 th {
-    background-color: #000000;
+    background-color: #c41616;
     width: 280px;
     text-align: center;
     align-items: center;
