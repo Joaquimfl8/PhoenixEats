@@ -1,6 +1,7 @@
 import styles from './Header.module.css';
 import PhoenixImg from '../../imgs/Phoenix-removebg-preview.png';
 import {Link} from 'react-router-dom'
+import carrinho from '../../imgs/Carrinho.png'
 
 function Header() {
     return (
@@ -15,7 +16,7 @@ function Header() {
                     <Link className={styles.header_links} to="/products">Products</Link>
                     <Link className={styles.header_links} to="/aboutus">About Us</Link>
                     <Link className={styles.header_links} to="/market">
-                        <img src='https://cdn0.iconfinder.com/data/icons/minimal-set-seven/32/minimal-49-512.png'></img>
+                        <img src={carrinho}></img>
                     </Link>
                 </nav>
             </div>

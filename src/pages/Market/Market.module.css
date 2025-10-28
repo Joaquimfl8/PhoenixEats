@@ -1,15 +1,42 @@
+
+.market_components {
+    margin-top: 25px;
+}
+
+
 .market_components img{
-    width: 50px;
+    width: 250px;
+    height: 250px;
+
+
 }
 
 .market_table {
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 th {
-    border: 5px solid black;
+    background-color: #c41616;
+    width: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+    height: 100%;
+    padding: 10px;
 }
 
 td {
-    border-right: 2px solid black;
+    background-color: #cc0000;
+    width: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    color: white;
+    height: 100%;
+    font-size: 20px;
 }
+
+
