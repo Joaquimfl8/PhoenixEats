@@ -4,6 +4,7 @@
     gap: 40px;
     flex-wrap: wrap;
     padding: 40px;
+    
 }
 
 .card_buttom{
@@ -11,6 +12,7 @@
     border-radius: 30px;
     padding: 10px;
     color: white;
+    padding: 2px 20px;
 }
 
 .textAbout {

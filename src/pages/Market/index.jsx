@@ -10,13 +10,22 @@ function Market() {
         <Header />
         <h2>Carrinho</h2>
         <div className={styles.market_components}>
-            <div className={styles.table_container}> 
-                <table className={styles.market_components}>
-                    <thead className={styles.market_head}>
-                        <tr className={styles.head_components}>
-                            <th>Produto</th>
-                            <th>Preço</th>
-                            <th>Descrição</th>
+            <table className={styles.market_components}>
+                <thead className={styles.market_head}>
+                    <tr className={styles.head_components}>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Descrição</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody className={styles.market_body}>
+                    {Object.values(ProductsData).map(product => (
+                        <tr className={styles.body_components}>
+                            <td><img src={product.img} alt={product.title} />{product.title}</td>
+                            <td>{product.price}</td>
+                            <td>{product.desc}</td>
+                            <td>1</td>
                         </tr>
                     </thead>
                     <tbody className={styles.market_body}>
