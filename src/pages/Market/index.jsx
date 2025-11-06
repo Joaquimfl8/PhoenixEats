@@ -34,7 +34,7 @@ function Market() {
                                         nome = {product.title}
                                         preco = {product.price}
                                     />
-                                    <button onClick={removerProduto(styles.body_components)}>hbjklç</button>
+                                    <button onClick={removerProduto(styles.body_components)}>Remover do Carrinho</button>
                                 </td>
                             </tr>
                         ))}

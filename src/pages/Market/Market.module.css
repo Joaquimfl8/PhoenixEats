@@ -1,14 +1,14 @@
-
 .market_components {
     margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
-
 
 .market_components img{
     width: 250px;
-    height: 250px;
-
-
+    height: 250px; 
 }
 
 .market_table {
@@ -17,19 +17,18 @@
 
 th {
     background-color: #c41616;
-    width: 280px;
+    width: 300px;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
     color: white;
     height: 100%;
-    padding: 10px;
+
 }
 
 td {
     background-color: #cc0000;
-    width: 600px;
+    width: 300px;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -37,6 +36,8 @@ td {
     color: white;
     height: 100%;
     font-size: 20px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
