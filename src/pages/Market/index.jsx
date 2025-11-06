@@ -41,8 +41,8 @@ function Market() {
                     </tbody>
                 </table>
             </div>  
-            <Footer/>
         </div>
+        <Footer/>
         </>
     )
 }

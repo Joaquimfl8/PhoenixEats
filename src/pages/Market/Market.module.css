@@ -1,9 +1,9 @@
 .market_components {
     margin-top: 25px;
-    display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    justify-self: center;
 }
 
 .market_components img{
