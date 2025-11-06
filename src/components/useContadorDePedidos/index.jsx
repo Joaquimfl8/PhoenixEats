@@ -9,7 +9,7 @@ function useContadorDePedidos(quantidadeInicial = 1) {
     };
 
     const diminuir = () => {
-        setContador(prevContador => (prevContador > 0 ? prevContador - 1 : 0));
+        setContador(prevContador => (prevContador > 1 ? prevContador - 1 : 1));
     }
 
     return { quantidade, aumentar, diminuir}
