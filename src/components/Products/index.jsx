@@ -1,7 +1,24 @@
 import styles from './Products.module.css';
-import {Link} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
-function Products({ProductTitle = "", ProductImg = "", ProductDesc = "", ProductPrice = ""}) {
+function Products({ProductTitle = "", ProductDesc = "", ProductImg = "", ProductPrice = "", adicionarAoCarrinho}) {
+    const navigate = useNavigate()
+
+    const preco = ProductPrice.replace('R$', "")
+
+    const buy = () => {
+        const produtoCompleto = {
+            title: ProductTitle,
+            desc: ProductDesc,
+            img: ProductImg,
+            price: preco
+        }
+
+        adicionarAoCarrinho(produtoCompleto)
+
+        navigate('/market')
+    }
+
     return (
         <>
             <div className={styles.products_Grid} id={ProductTitle}>
@@ -9,7 +26,7 @@ function Products({ProductTitle = "", ProductImg = "", ProductDesc = "", Product
                     <h2>{ProductTitle}</h2>
                     <img src={ProductImg} alt={ProductTitle} />
                     <p className={styles.products_price}>{ProductPrice}</p>
-                    <button to="/market">Comprar</button>
+                    <button onClick={buy}>Comprar</button>
                 </div>
             </div>
         </>

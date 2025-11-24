@@ -1,0 +1,9 @@
+
+
+.container_signup{
+    display: flex;
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 107, 175);
+}

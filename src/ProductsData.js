@@ -21,6 +21,7 @@ const ProductsData = {
         "price": "34,00",
         "desc": "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
     },
+    
     "Bolo de Morango": {
         "title": "Bolo de Morango",
         "img": BoloMorango,
