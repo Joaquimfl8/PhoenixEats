@@ -33,6 +33,10 @@
     height: auto;
 }
 
+.prodImg {
+    width: 1000px;
+}
+
 .header_anchors{
     display: flex;
     color: rgb(0, 0, 0);
