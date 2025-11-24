@@ -17,10 +17,8 @@ function Header() {
                 <nav className={styles.header_anchors}>
                     <Link className={styles.header_links} to="/"><img src={home}></img></Link>
                     <Link className={styles.header_links} to="/products"><img className={styles.prodImg} src={products}></img></Link>
+                    <Link className={styles.header_links} to="/market"><img src={carrinho}></img></Link>
                     <Link className={styles.header_links} to="/aboutus"><img src={aboutus}></img></Link>
-                    <Link className={styles.header_links} to="/market">
-                        <img src={carrinho}></img>
-                    </Link>
                 </nav>
             </div>
         </>
