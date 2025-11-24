@@ -37,7 +37,7 @@ function Home() {
                                 <h2>{pizza.title}</h2>
                                 <div className={styles.Cards}>
                                     <p>{pizza.description}</p>
-                                    <p><Link to="/SignUp" className={styles.card_buttom }>Peça Agora</Link></p>
+                                    <p><Link to="/products" className={styles.card_buttom }>Peça Agora</Link></p>
                                 </div>
                             </div>
                         </div>
