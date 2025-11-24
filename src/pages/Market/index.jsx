@@ -1,20 +1,12 @@
 import styles from "./Market.module.css";
 import Header from "../../components/Header";
-import ProductsData from "../../ProductsData";
+//import ProductsData from "../../ProductsData";
 import Footer from "../../components/Footer";
 import CardItem from "../../components/CardItem";
 
-function removerProduto(ProdutoDiv) {
-    const produto = document.getElementById(ProdutoDiv)
+function Market({carrinhoTabela, deletar}) {
+    const produtosCarrinho = Object.values(carrinhoTabela)
 
-    if (produto) {
-        console.log("Produtoo")
-        produto.remove()
-    }
-    
-}
-
-function Market() {
     return (
         <>
         <Header />
@@ -30,7 +22,7 @@ function Market() {
                         </tr>
                     </thead>
                     <tbody className={styles.market_body}>
-                        {Object.values(ProductsData).map(product => (
+                        {produtosCarrinho.map(product => (
                             <tr className={styles.body_components} id={product.title}>
                                 <td><img src={product.img} alt={product.title} /></td>
                                 <td>{product.price}</td>
@@ -39,8 +31,9 @@ function Market() {
                                     <CardItem
                                         nome = {product.title}
                                         preco = {product.price}
+                                        
                                     />
-                                    <button onClick={removerProduto(styles.body_components)}>Remover do Carrinho</button>
+                                    <button on onClick={() => deletar(product.title)}>Remover do Carrinho</button>
                                 </td>
                             </tr>
                         ))}
