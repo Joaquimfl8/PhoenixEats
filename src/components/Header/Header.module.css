@@ -33,6 +33,10 @@
     height: auto;
 }
 
+.prodImg {
+    width: 1000px;
+}
+
 .header_anchors{
     display: flex;
     color: rgb(0, 0, 0);
@@ -52,5 +56,5 @@
 }
 
 .header_links:hover {
-    color: rgb(255, 205, 205); /* tom mais claro */
+    color: rgb(255, 251, 0); /* tom mais claro */
 }

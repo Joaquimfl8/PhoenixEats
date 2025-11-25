@@ -1,7 +1,7 @@
 // Exemplo de Hook no React (funcionalidade de adicionar quantidade de pedidos)
 import { useState } from 'react';
 
-function useContadorDePedidos(quantidadeInicial = 0) {
+function useContadorDePedidos(quantidadeInicial = 1) {
     const [quantidade, setContador] = useState(quantidadeInicial);
 
     const aumentar = () => {
@@ -9,7 +9,7 @@ function useContadorDePedidos(quantidadeInicial = 0) {
     };
 
     const diminuir = () => {
-        setContador(prevContador => (prevContador > 0 ? prevContador - 1 : 0));
+        setContador(prevContador => (prevContador > 1 ? prevContador - 1 : 1));
     }
 
     return { quantidade, aumentar, diminuir}

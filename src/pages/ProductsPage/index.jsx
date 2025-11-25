@@ -7,7 +7,7 @@ import ProductsData from "../../ProductsData"
 
 //import imgs from "../../imgs"
 
-function ProductsPage() {
+function ProductsPage({adicionarAoCarrinho}) {
 
     return (
         <>
@@ -21,6 +21,7 @@ function ProductsPage() {
                             ProductDesc={product.desc}
                             ProductImg={product.img}
                             ProductPrice={`R$${product.price}`}
+                            adicionarAoCarrinho={adicionarAoCarrinho}
                         />
                     )
                 })}
